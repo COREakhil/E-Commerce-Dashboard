@@ -14,7 +14,7 @@ const UpdateProduct = () => {
     useEffect(()=>{
        
         getProductDetails();
-    },[])
+    })
 
     const getProductDetails = async () =>{
         
